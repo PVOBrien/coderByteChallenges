@@ -1,2 +1,8 @@
 CoderByteChallenges/MinWinSubstring.java
  CoderByteChallenges.MinWinSubstring
+CoderByteChallenges/BracketCombinations.java
+ CoderByteChallenges.BracketCombinations
+CoderByteChallenges/TreeConstruction.java
+ CoderByteChallenges.TreeConstruction
+CoderByteChallenges/BracketMatcher.java
+ CoderByteChallenges.BracketMatcher
