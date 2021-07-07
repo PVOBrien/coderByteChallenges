@@ -4,3 +4,6 @@ CoderByteChallenges/AprilChallenges.java
  CoderByteChallenges.AprilChallenges$BracketMatcherTest
  CoderByteChallenges.AprilChallenges$MinWinSubStringTests
  CoderByteChallenges.AprilChallenges$TreeConstructTest
+CoderByteChallenges/JulyChallenges.java
+ CoderByteChallenges.JulyChallenges
+ CoderByteChallenges.JulyChallenges$QuestionMarksTest

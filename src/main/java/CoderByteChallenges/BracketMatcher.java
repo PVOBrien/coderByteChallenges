@@ -4,8 +4,8 @@ import java.util.Stack;
 
 public class BracketMatcher {
 
-    public static String BracketMatcher(String str) {
-        Stack<String> bStack = new Stack();
+    public static String BracketMatcherSt(String str) {
+        Stack<String> bStack = new Stack<>();
 
         for (char theLetter : str.toCharArray()) {
             if (theLetter == '(') {

@@ -4,7 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class BracketCombinations {
-
     public static int bracketCombinations(int num) {
         if (num < 3) return num;
 
@@ -23,7 +22,6 @@ public class BracketCombinations {
             nextLevelSB.insert(i, "()");
             bracketSet = bracketCreator(nextLevelSB, bracketSet, currentCount + 1, stoppingPoint);
         }
-        System.out.println(bracketSet);
         return bracketSet;
     }
 }

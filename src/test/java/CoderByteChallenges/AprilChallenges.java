@@ -1,8 +1,6 @@
 package CoderByteChallenges;
 
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.condition.DisabledIfSystemProperties;
-import org.w3c.dom.ls.LSOutput;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -24,27 +22,18 @@ public class AprilChallenges {
         @Test
         @DisplayName("One")
         public void minWinTestOne() {
-            MinWinSubstring minWinSubstring = new MinWinSubstring();
-//            MinWinSubstring.minWindowSubstring(testArrOne);
-            System.out.println("");
             assertEquals("aksfaje", MinWinSubstring.minWindowSubstring(testArrOne));
         }
 
         @Test
         @DisplayName("One, Custom")
         public void minWinTestOneCustom() {
-            MinWinSubstring minWinSubstring = new MinWinSubstring();
-//            MinWinSubstring.minWindowSubstring(testArrOne);
-            System.out.println("");
             assertEquals("aksfaje", MinWinSubstring.minWindowSubstring(testArrOneCustom));
         }
 
         @Test
         @DisplayName("Custom Three")
         public void minWinTestThreeC() {
-            MinWinSubstring minWinSubstring = new MinWinSubstring();
-//            MinWinSubstring.minWindowSubstring(testArrOne);
-            System.out.println("");
             assertEquals("affhkkse", MinWinSubstring.minWindowSubstring(testArrThreeCustom));
         }
     }
@@ -94,13 +83,13 @@ public class AprilChallenges {
         @Test
         @DisplayName("Tree time!")
         public void TreeTestOne() {
-            assertEquals("true", TreeConstruction.TreeConstructor(testString));
+            assertEquals("true", TreeConstruction.TreeConstructed(testString));
         }
 
         @Test
         @DisplayName("Tree time!")
         public void TreeTestTwo() {
-            assertEquals("false", TreeConstruction.TreeConstructor(testString2));
+            assertEquals("false", TreeConstruction.TreeConstructed(testString2));
         }
     }
 
@@ -114,13 +103,13 @@ public class AprilChallenges {
         @Test
         @DisplayName("Bracket One!")
         public void BrackAttackOne() {
-            assertEquals("0", BracketMatcher.BracketMatcher(testOne));
+            assertEquals("0", BracketMatcher.BracketMatcherSt(testOne));
         }
 
         @Test
         @DisplayName("Bracket Two!")
         public void BrackAttackTwo() {
-            assertEquals("1", BracketMatcher.BracketMatcher(testTwo));
+            assertEquals("1", BracketMatcher.BracketMatcherSt(testTwo));
         }
     }
 }
