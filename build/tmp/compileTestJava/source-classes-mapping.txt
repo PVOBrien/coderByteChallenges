@@ -1,9 +1,12 @@
+CoderByteChallenges/JulyChallenges.java
+ CoderByteChallenges.JulyChallenges
+ CoderByteChallenges.JulyChallenges$QuestionMarksTest
 CoderByteChallenges/AprilChallenges.java
  CoderByteChallenges.AprilChallenges
  CoderByteChallenges.AprilChallenges$BracketCombinationsTest
  CoderByteChallenges.AprilChallenges$BracketMatcherTest
  CoderByteChallenges.AprilChallenges$MinWinSubStringTests
  CoderByteChallenges.AprilChallenges$TreeConstructTest
-CoderByteChallenges/JulyChallenges.java
- CoderByteChallenges.JulyChallenges
- CoderByteChallenges.JulyChallenges$QuestionMarksTest
+CoderByteChallenges/AugustChallenges.java
+ CoderByteChallenges.AugustChallenges
+ CoderByteChallenges.AugustChallenges$LongestWordTest
